@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 💈 Barber Shop Booking System  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project showcases a **Barber Shop Booking System** built as part of an internship application test. Despite the short timeframe (1–2 days), the focus was on delivering core functionalities and creating a scalable foundation for future enhancements.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Overview  
 
-### `npm start`
+This system allows customers to:  
+- View available barbers and their schedules.  
+- Book appointments with real-time updates.  
+- Select valid dates and time slots.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+It is designed to ensure smooth, reliable, and extendable functionality for future development.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Core Functionalities  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🖥️ **User-Friendly Booking Interface**  
+- Customers can view barbers and their available time slots.  
+- Real-time updates to display reserved and available slots.  
 
-### `npm run build`
+### 📅 **Date and Time Selection**  
+- Past dates are disabled with a message prompt.  
+- Non-working hours and break times are excluded.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔄 **Dynamic Data Fetching**  
+- Integrates with a backend API to fetch busy periods for each barber.  
+- Reflects real-time changes in reservations.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✅ **Basic Validation and Confirmation**  
+- Confirms reservations before booking.  
+- Prevents double booking by disabling reserved slots.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Technologies Used  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend:  
+- ![React.js](https://img.shields.io/badge/-React.js-61DAFB?logo=react&logoColor=white&style=for-the-badge)  
+- ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend:  
+- ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=springboot&logoColor=white&style=for-the-badge)  
+- ![Spring Security](https://img.shields.io/badge/-Spring%20Security-6DB33F?logo=springsecurity&logoColor=white&style=for-the-badge)  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Database:  
+- ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Deployment:  
+- ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)  
+- ![Railway](https://img.shields.io/badge/-Railway-0B0D0E?logo=railway&logoColor=white&style=for-the-badge)  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Planned Features for Future Development  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🛡️ **Admin Panel**  
+- Manage barbers, schedules, and reservations.  
+- Add, edit, or remove barbers and services.  
+- Monitor system usage and generate reports.  
 
-### Code Splitting
+### 🔔 **Notification System**  
+- SMS or email reminders for upcoming appointments.  
+- Alerts for canceled or rescheduled bookings.  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📱 **Responsive Design**  
+- Optimize usability for all devices (desktop, tablet, and mobile).  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔗 Links  
 
-### Making a Progressive Web App
+- 🌐 [Live Website](https://barber-shop-front-ten.vercel.app/)  
+- 📂 [Backend Repository](https://github.com/oussama-krittel/BarberShopBack.git)  
+- 📂 [Frontend Repository](https://github.com/oussama-krittel/barberShopFront.git)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 💡 Final Note  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is a **minimum viable product** demonstrating my ability to deliver a functional and extendable system in a short timeframe. It reflects my focus on creating a strong foundation for future enhancements.  
 
-### Deployment
+I look forward to hearing from you soon—thank you for reviewing my application! 😊  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
